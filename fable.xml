@@ -1,6 +1,275 @@
 <fable>
-	<page>
-  
-    
+	<page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa Sorte!" x="0" y="410" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Seguindo Pela Esquerda..." x="0" y="470" font-size="30"/>
+    <agent text="Encontro outra bifurcação, mas porquê este lugar é tão silencioso?" x="0" y="455" font-size="15"/>
+    <agent text="Isso é meio assustador e não estou com um bom presentimento" x="0" y="440" font-size="15"/>
+    <agent text="Porém não vou desistir, Então por onde irei agora?" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:4"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:5"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Seguindo Pela Direita..." x="0" y="470" font-size="30"/>
+    <agent text="Encontro outra bifurcação, o que pensando bem, é estranho" x="0" y="455" font-size="15"/>
+    <agent text="Pois não há IFs no código desse labirinto, como isso é possível?" x="0" y="440" font-size="15"/>
+    <agent text="Incrível, mas por onde seguirei agora?" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:6"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:7"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Estou Me Sentindo Meio..." x="0" y="470" font-size="30"/>
+    <agent text="Perdido, encontrei outra bifurcação, e tudo é exatamente igual" x="0" y="455" font-size="15"/>
+    <agent text="Parece que estou andando em círculo e não chego em lugar nenhum" x="0" y="440" font-size="15"/>
+    <agent text="Por isso que é fácil se perder aqui ou talvez eu já esteje louco" x="0" y="425" font-size="15"/>
+    <agent text="Melhor eu continuar e sair daqui o mais rápido possível." x="0" y="410" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:8"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:9"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
+    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
+    <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa SorteI" x="0" y="425" font-size="15"/>
+    <agent img="2.png" x="000" y="0" width="100" height="100"/>
+    <agent img="2.png" x="100" y="0" width="100" height="100"/>
+    <agent img="2.png" x="200" y="0" width="100" height="100"/>
+    <agent img="2.png" x="300" y="0" width="100" height="100"/>
+    <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Sign_back.png" x="100" y="100" width="100" height="100" on-touch="_GOTO_PAGE:2"/>
+    <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:3"/>
   </page>
 </fable>
