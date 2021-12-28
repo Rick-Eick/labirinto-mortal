@@ -4,7 +4,7 @@
     <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
     <agent text="Um labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
     <agent text="Para testar a sorte dos corajosos aventureiros" x="0" y="425" font-size="15"/>
-    <agent text="Então escolha seu caminho e Boa Sorte!" x="0" y="410" font-size="15"/>
+    <agent text="Então escolha seu caminho e Boa Sorte." x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
     <agent img="2.png" x="100" y="0" width="100" height="100"/>
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
@@ -75,7 +75,7 @@
   <page background="bg.png">
   	<agent text="Estou Me Sentindo Meio..." x="0" y="470" font-size="30"/>
     <agent text="Perdido, encontrei outra bifurcação, e tudo é exatamente igual" x="0" y="455" font-size="15"/>
-    <agent text="Parece que estou andando em círculo e não chego em lugar nenhum" x="0" y="440" font-size="15"/>
+    <agent text="Parece que estou andando em círculo e não chego em nada" x="0" y="440" font-size="15"/>
     <agent text="Por isso que é fácil se perder aqui ou talvez eu já esteje louco" x="0" y="425" font-size="15"/>
     <agent text="Melhor eu continuar e sair daqui o mais rápido possível." x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
