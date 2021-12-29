@@ -1,8 +1,8 @@
 <fable>
 	<page background="bg.png">
   	<agent text="Labirinto Mortal" x="0" y="470" font-size="30"/>
-    <agent text="Após 20 dias, você finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
-    <agent text="Um pequeno labirinto criado pelo Grande Mestre do Mal Lick" x="0" y="440" font-size="15"/>
+    <agent text="Após 20 dias, eu finalmente chega ao Labirinto Mortal" x="0" y="455" font-size="15"/>
+    <agent text="Um pequeno e mortal labirinto criado pelo Grande Mestre Salles" x="0" y="440" font-size="15"/>
     <agent text="Para testar a sorte de corajosos aventureiros em busca do tesouro" x="0" y="425" font-size="15"/>
     <agent text="Então escolha seu caminho e Boa Sorte." x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
@@ -51,8 +51,8 @@
   <page background="bg.png">
   	<agent text="Seguindo Pela Direita..." x="0" y="470" font-size="30"/>
     <agent text="Encontro outra bifurcação, o que pensando bem, é estranho" x="0" y="455" font-size="15"/>
-    <agent text="Pois não há IFs no código desse labirinto, como isso é possível?" x="0" y="440" font-size="15"/>
-    <agent text="Incrível, mas por onde seguirei agora?" x="0" y="425" font-size="15"/>
+    <agent text="Pois não há IFs neste código, como isso será possível?" x="0" y="440" font-size="15"/>
+    <agent text="É simplesmente incrível, mas por onde seguirei agora?" x="0" y="425" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
     <agent img="2.png" x="100" y="0" width="100" height="100"/>
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
@@ -73,7 +73,7 @@
     <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:7"/>
   </page>
   <page background="bg.png">
-  	<agent text="Estou Me Sentindo Meio..." x="0" y="470" font-size="30"/>
+  	<agent text="Agora Estou Me Sentindo Meio..." x="0" y="470" font-size="30"/>
     <agent text="Perdido, encontrei outra bifurcação, e tudo é exatamente igual" x="0" y="455" font-size="15"/>
     <agent text="Parece que estou andando em círculo e não chego em nada" x="0" y="440" font-size="15"/>
     <agent text="Por isso que é fácil se perder aqui ou talvez eu já esteje louco" x="0" y="425" font-size="15"/>
@@ -98,10 +98,11 @@
     <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:9"/>
   </page>
   <page background="bg.png">
-  	<agent text="O Caminho acabou aqui!" x="0" y="470" font-size="30"/>
-    <agent text="Bem acho melhor eu voltar então" x="0" y="455" font-size="15"/>
-    <agent text="Espera a porta se fechou, Eu estou preso? Para sempre?" x="0" y="440" font-size="15"/>
-    <agent text="Fim de Jogo: Você ficou preso" x="0" y="425" font-size="15"/>
+  	<agent text="Ao Seguir Este Caminho" x="0" y="470" font-size="30"/>
+    <agent text="Acabei topando de cara com uma parede. Acho melhor eu voltar" x="0" y="455" font-size="15"/>
+    <agent text="Porém o silêncio é interrompido com o som da saída se fechando" x="0" y="440" font-size="15"/>
+    <agent text="E Agora? Eu estou preso? Para sempre?" x="0" y="425" font-size="15"/>
+    <agent text="[Fim de Jogo] Eu fiquei preso" x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
     <agent img="2.png" x="100" y="0" width="100" height="100"/>
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
@@ -125,10 +126,10 @@
   </page>
   <page background="bg.png">
   	<agent text="Bem Parece Que..." x="0" y="470" font-size="30"/>
-    <agent text="Estou com sorte já que estou vivo até agora" x="0" y="455" font-size="15"/>
-    <agent text="E também sinto que estou perto de encontrar o tesouro" x="0" y="440" font-size="15"/>
+    <agent text="Estou com sorte já que estou vivo neste labirinto até agora" x="0" y="455" font-size="15"/>
+    <agent text="E também sinto que estou perto de encontrar o grande tesouro" x="0" y="440" font-size="15"/>
     <agent text="Mas não posso vacilar, já que ainda há mais uma birfucação" x="0" y="425" font-size="15"/>
-    <agent text="Então está escolha pode significar vida ou morte" x="0" y="410" font-size="15"/>
+    <agent text="Então está próxima escolha pode significar vida ou morte" x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
     <agent img="2.png" x="100" y="0" width="100" height="100"/>
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
@@ -149,7 +150,34 @@
     <agent img="Sign_2.png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:11"/>
   </page>
   <page background="bg.png">
-  	<agent text="Titulo" x="0" y="470" font-size="30"/>
+  	<agent text="O Caminho acabou aqui!" x="0" y="470" font-size="30"/>
+    <agent text="Era uma sala vazia e sem birfucações, parecia normal" x="0" y="455" font-size="15"/>
+    <agent text="Mas ao me virar e caminhar para porta o chão tremeu e rompeu" x="0" y="440" font-size="15"/>
+    <agent text="A saída se fechou e começou a sair ácido do chão e encheu a sala" x="0" y="425" font-size="15"/>
+    <agent text="[Fim de Jogo] Não tinha como escapar. Eu Morri" x="0" y="410" font-size="15"/>
+    <agent img="Acid (2).png" x="000" y="0" width="100" height="100"/>
+    <agent img="Acid (2).png" x="100" y="0" width="100" height="100"/>
+    <agent img="Acid (2).png" x="200" y="0" width="100" height="100"/>
+    <agent img="Acid (2).png" x="300" y="0" width="100" height="100"/>
+    <agent img="Acid (2).png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
+  </page>
+  <page background="bg.png">
+  	<agent text="Título" x="0" y="470" font-size="30"/>
     <agent text="Texto" x="0" y="455" font-size="15"/>
     <agent text="Texto" x="0" y="440" font-size="15"/>
     <agent text="Texto" x="0" y="425" font-size="15"/>
@@ -159,17 +187,21 @@
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
     <agent img="2.png" x="300" y="0" width="100" height="100"/>
     <agent img="2.png" x="400" y="0" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
+    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="100" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="300" y="200" width="100" height="100"/>
+    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
     <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
     <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
     <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
     <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
     <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
-    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
-    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
   </page>
   <page background="bg.png">
   	<agent text="Titulo" x="0" y="470" font-size="30"/>
@@ -195,34 +227,11 @@
     <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
   </page>
   <page background="bg.png">
-  	<agent text="Titulo" x="0" y="470" font-size="30"/>
-    <agent text="Texto" x="0" y="455" font-size="15"/>
-    <agent text="Texto" x="0" y="440" font-size="15"/>
-    <agent text="Texto" x="0" y="425" font-size="15"/>
-    <agent text="Texto" x="0" y="410" font-size="15"/>
-    <agent img="2.png" x="000" y="0" width="100" height="100"/>
-    <agent img="2.png" x="100" y="0" width="100" height="100"/>
-    <agent img="2.png" x="200" y="0" width="100" height="100"/>
-    <agent img="2.png" x="300" y="0" width="100" height="100"/>
-    <agent img="2.png" x="400" y="0" width="100" height="100"/>
-    <agent img="Tile (5).png" x="000" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="100" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="200" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="300" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="400" y="300" width="100" height="100"/>
-    <agent img="Tile (5).png" x="000" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="000" y="200" width="100" height="100"/>
-    <agent img="Tile (5).png" x="200" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="200" y="200" width="100" height="100"/>
-    <agent img="Tile (5).png" x="400" y="100" width="100" height="100"/>
-    <agent img="Tile (5).png" x="400" y="200" width="100" height="100"/>
-  </page>
-  <page background="bg.png">
-  	<agent text="Titulo" x="0" y="470" font-size="30"/>
-    <agent text="Texto" x="0" y="455" font-size="15"/>
-    <agent text="Texto" x="0" y="440" font-size="15"/>
-    <agent text="Texto" x="0" y="425" font-size="15"/>
-    <agent text="Texto" x="0" y="410" font-size="15"/>
+  	<agent text="O Grande Tesouro" x="0" y="470" font-size="30"/>
+    <agent text="Ao entrar na sala, para minha alegria, encontro um baú diferente" x="0" y="455" font-size="15"/>
+    <agent text="Ao abrir o baú, acho uma magia de uso único e instantâneo" x="0" y="440" font-size="15"/>
+    <agent text="Ao executa-lá sou teletransportado para fora do labirinto e..." x="0" y="425" font-size="15"/>
+    <agent text="[Fim De Jogo] Ganhei 3 Pontos do Grande Mestre Salles" x="0" y="410" font-size="15"/>
     <agent img="2.png" x="000" y="0" width="100" height="100"/>
     <agent img="2.png" x="100" y="0" width="100" height="100"/>
     <agent img="2.png" x="200" y="0" width="100" height="100"/>
