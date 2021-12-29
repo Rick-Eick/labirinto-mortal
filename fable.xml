@@ -207,7 +207,7 @@
   	<agent text="Mais Que Frio!" x="0" y="470" font-size="30"/>
     <agent text="Para minha supresa, no fim, encontro uma sala onde nevava" x="0" y="455" font-size="15"/>
     <agent text="No centro havia um cristal de gelo. Seria este o grande tesouro?" x="0" y="440" font-size="15"/>
-    <agent text="Quando eu o toquei, uma tempestade de neve se forma na sala." x="0" y="425" font-size="15"/>
+    <agent text="Porém quando o toquei, uma tempestade de neve se forma na sala" x="0" y="425" font-size="15"/>
     <agent text="[Fim De Jogo] Sou congelado instantâneamente. Eu Morri" x="0" y="410" font-size="15"/>
     <agent img="neve.png" x="000" y="0" width="100" height="100"/>
     <agent img="neve.png" x="100" y="0" width="100" height="100"/>
